@@ -11,7 +11,7 @@ public class Library {
         userRepository.add(user);
     }
 
-    User getUser(){
+    List<User> getUser(){
         return userRepository.getUser();
     }
 
