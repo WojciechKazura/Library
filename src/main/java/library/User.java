@@ -1,8 +1,9 @@
 package library;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class User {
+public class User implements Serializable {
 
     private String email;
     private String password;

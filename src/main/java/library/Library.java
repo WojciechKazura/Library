@@ -5,16 +5,16 @@ import java.util.List;
 
 public class Library {
 
-    private List<User> userArrayList = new ArrayList<>();
+    private UserRepository userRepository=new UserRepository();
 
     void addUser(User user) {
-        userArrayList.add(user);
+        userRepository.add(user);
     }
 
     @Override
     public String toString() {
         return "Library{" +
-                "userArrayList=" + userArrayList +
+                "userArrayList=" + userRepository +
                 '}';
     }
 }
