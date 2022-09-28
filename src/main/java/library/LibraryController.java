@@ -27,7 +27,7 @@ public class LibraryController {
             User user = new User();
             library.addUser(user);
         } else if (choice == 2) {
-            System.out.println(library);
+            System.out.println(library.getUser());
         }
     }
 

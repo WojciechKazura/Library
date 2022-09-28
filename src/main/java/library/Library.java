@@ -11,6 +11,10 @@ public class Library {
         userRepository.add(user);
     }
 
+    User getUser(){
+        return userRepository.getUser();
+    }
+
     @Override
     public String toString() {
         return "Library{" +
